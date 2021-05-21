@@ -1,2 +1,3 @@
-# itmo-cse.github.io
-Faculty of Software Engineering and Computer Science
+# Faculty of Software Engineering and Computer Science
+
+
