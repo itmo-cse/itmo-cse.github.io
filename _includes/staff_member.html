@@ -1,0 +1,17 @@
+<div class="grid-item">
+  {% if member.redirect %}
+  <a href="{{ member.redirect }}" target="_blank">
+  {% else %}
+  <a href="{{ member.url | relative_url }}">
+  {% endif %}
+    <div class="card hoverable">
+      {% if member.img %}
+      <img src="{{ member.img | relative_url }}" alt="member thumbnail">
+      {% endif %}
+      <div class="card-body">
+        <h2 class="card-title text-lowercase">{{ member.name }}</h2>
+        <p class="card-text">{{ member.position }}</p>
+      </div>
+    </div>
+  </a>
+</div>

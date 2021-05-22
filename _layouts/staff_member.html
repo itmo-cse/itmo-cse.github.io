@@ -1,0 +1,62 @@
+---
+layout: default
+---
+<div class="post">
+
+    <header class="post-header">
+        <h2 class="post-title">{{ page.name }} {{ page.surname }} {{ page.patronym }} </h2>
+        <p class="post-description">{{ page.position }}</p>
+    </header>
+
+    <article class="post-content">
+
+        <div class="row">
+            {% if page.img %}
+            <div class="col-sm mt-3 mt-md-0" >
+                <img class="img-fluid rounded z-depth-1" style="width: 70%" src="{{ page.img }}" alt="" title="example image"/>
+            </div>
+            {% endif %}
+
+
+                <div class="col-sm mt-3 mt-md-0" >
+
+                {% if page.interests %}
+                <h3>Интересы</h3>
+                <div>
+                     {{ page.interests }}
+                </div>
+                {% endif %}
+
+                {{ content }}
+
+                <h3>Контакты</h3>
+
+                <ul>
+                {% if page.github %}
+                    <li> github: <a href="https://github.com/{{ page.github}}"> {{ page.github }}</a></li>
+                {% endif %}
+
+                {% if page.skype%}
+                <li> skype: {{ page.skype }}</li>
+                {% endif %}
+
+                {% if page.telegram %}
+                <li> github: <a href="https://t.me/{{ page.telegram}}"> {{ page.telegram }}</a></li>
+                {% endif %}
+
+                {% if page.email_work %}
+                <li> e-mail (work): <a href="mailto:{{ page.email_work }}"> {{ page.email_work }}</a></li>
+                {% endif %}
+                {% if page.email_personal %}
+                <li> e-mail (personal): <a href="mailto:{{ page.email_personal }}"> {{ page.email_personal }}</a></li>
+                {% endif %}
+
+                </ul>
+
+
+            </div>
+        </div>
+
+    </article>
+
+</div>
