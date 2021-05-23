@@ -6,3 +6,4 @@ publish:
 	git add --all
 	git commit -am'update'
 	git push
+	git checkout master
