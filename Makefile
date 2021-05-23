@@ -5,3 +5,4 @@ publish:
 	rsync -avz --delete --exclude='_site' --exclude='.git' _site/ ./
 	git add --all
 	git commit -am'update'
+	git push
