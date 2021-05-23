@@ -1,10 +1,10 @@
 ---
 layout: page
 permalink: /publications/
-title: Публикации
-menu_title: Публикации
-description: Статьи, написанные нашим коллективом
-years: [1956, 1950, 1935, 1905]
+title: Наука
+menu_title: Наука
+description: Статьи, книги, журналы
+years: [2021]
 nav: true
 ---
 
