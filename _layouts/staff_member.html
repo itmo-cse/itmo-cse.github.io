@@ -3,11 +3,6 @@ layout: default
 ---
 <div class="post">
 
-    <header class="post-header">
-        <h2 class="post-title">{{ page.name }} {{ page.surname }} {{ page.patronym }} </h2>
-        <p class="post-description">{{ page.position }}</p>
-    </header>
-
     <article class="post-content">
 
         <div class="row">
@@ -20,6 +15,12 @@ layout: default
 
                 <div class="col-sm mt-3 mt-md-0" >
 
+    <header class="post-header">
+        <h2 class="post-title">{{ page.name }} {{ page.surname }} {{ page.patronym }} </h2>
+        <p class="post-description">{{ page.position }}</p>
+    </header>
+
+
                 {% if page.interests %}
                 <h3>Интересы</h3>
                 <div>
@@ -29,30 +30,23 @@ layout: default
 
                 {{ content }}
 
-                <h3>Контакты</h3>
-
-                <ul>
-                {% if page.github %}
-                    <li> github: <a href="https://github.com/{{ page.github}}"> {{ page.github }}</a></li>
-                {% endif %}
-
-                {% if page.skype%}
-                <li> skype: {{ page.skype }}</li>
-                {% endif %}
-
-                {% if page.telegram %}
-                <li> github: <a href="https://t.me/{{ page.telegram}}"> {{ page.telegram }}</a></li>
-                {% endif %}
-
-                {% if page.email_work %}
-                <li> e-mail (work): <a href="mailto:{{ page.email_work }}"> {{ page.email_work }}</a></li>
-                {% endif %}
-                {% if page.email_personal %}
-                <li> e-mail (personal): <a href="mailto:{{ page.email_personal }}"> {{ page.email_personal }}</a></li>
-                {% endif %}
-
                 </ul>
+    <div class="social">
+      <div class="contact-note">{{ page.bio }}</div>
+      <div class="contact-icons">
+          {% if page.email %}<a href="mailto:{{ page.email | encode_email }}"><i class="fas fa-envelope"></i></a>{% endif %}
+          {% if page.github_username %}<a href="https://github.com/{{ page.github_username }}" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>{% endif %}
+          {% if page.url %}<a href="{{ page.url }}" target="_blank" title="Personal page"><i class="fa fa-address-card"></i></a>{% endif %}
+          {% if page.telegram_username %}<a href="https://t.me/{{ page.telegram_username }}" target="_blank" title="Telegram"><i class="fab fa-telegram"></i></a>{% endif %}
+          {% if page.linkedin_username %}<a href="https://www.linkedin.com/in/{{ page.linkedin_username }}" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>{% endif %}
+          {% if page.twitter_username %}<a href="https://twitter.com/{{ page.twitter_username }}" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>{% endif %}
+          {% if page.research_gate_profile %}<a href="https://www.researchgate.net/profile/{{page.research_gate_profile}}/" target="_blank" title="ResearchGate"><i class="ai ai-researchgate"></i></a>{% endif %}
+      </div>
+    </div>
 
+
+ 
+ 
 
             </div>
         </div>
