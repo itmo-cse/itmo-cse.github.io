@@ -1,2 +1,5 @@
 _site
 Gemfile.lock
+.jekyll-cache/*
+vendor/*
+.bundle/config
