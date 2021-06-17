@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Сотрудники
+title: Сотрудники и менторы
 menu_title: Сотрудники
 permalink: /staff/
 description: Наша команда

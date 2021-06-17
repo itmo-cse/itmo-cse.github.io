@@ -5,7 +5,7 @@ title: Наука
 menu_title: Наука
 description: Статьи, книги, журналы
 years: [2021]
-nav: true
+nav: false
 ---
 
 <div class="publications">

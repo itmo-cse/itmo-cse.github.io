@@ -1,14 +1,13 @@
 ---
 layout: page
 title: Проектная магистратура
-permalink: /project-based-masters/
+permalink: /
 nav: false
 display_years: [2021]
 enable_master_project_categories: true
 
 ---
 
-Координатор рабочей группы [Дмитрий Ильич Муромцев]({{site.url}}/staff_members/mouromtsev).
 
 ## Что такое проектная магистратура?
 
@@ -30,7 +29,6 @@ enable_master_project_categories: true
 - а также конференции, хакатоны, научные школы...
 
 Проектную магистратуру легко совмещать с работой, если Ваш ментор является Вашим начальником на работе.
-
 
 
 ## Как проходит обучение?
@@ -58,7 +56,14 @@ enable_master_project_categories: true
            {% endif %}
            "> {{ project.title }} </a> <br/>
            
-           {{ project.director }}, {{ project.corp_partner }} </li>
+           {{ project.director }}, {{ project.corp_partner }} 
+           {% if project.abstract %}
+         <details>
+         <summary>Краткое описание</summary>
+        {{ project.abstract }} 
+         </details>
+           {% endif %}
+           </li>
           {% endfor %}
           </ul>
 
@@ -68,4 +73,4 @@ enable_master_project_categories: true
 
 ## Как стать ментором?
 
-Напишите [Дмитрию Ильичу Муромцеву]({{site.url}}/staff_members/mouromtsev).
+Напишите координатору проектной магистратуры, [Дмитрию Ильичу Муромцеву]({{site.url}}/staff_members/mouromtsev).
