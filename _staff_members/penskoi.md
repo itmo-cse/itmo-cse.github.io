@@ -10,7 +10,7 @@ img: /assets/img/staff/penskoi.jpg
 bio: |
   Aleksandr Penskoi, Ph.D., is working as Associate Professor at Software Engineering and Computer Systems Faculty at ITMO University with a specialization in computational process modeling and computer system design. The primal research topics are multi-level computer systems, hard real-time reconfigurable application-specific processors (NITTA), and verification. He has experience in real-world development as an architect and software engineer, e.g., electricity measuring system for small towns with certification. 
 
-email: aleksandr.penskoi@itmo.ru
+email_work: aleksandr.penskoi@itmo.ru
 github_username: ryukzak
 linkedin_username: 
 skype:

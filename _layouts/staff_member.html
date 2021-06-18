@@ -34,9 +34,9 @@ layout: default
     <div class="social">
       <div class="contact-note">{{ page.bio }}</div>
       <div class="contact-icons">
-          {% if page.email %}<a href="mailto:{{ page.email | encode_email }}"><i class="fas fa-envelope"></i></a>{% endif %}
+          {% if page.email_work %}<a href="mailto:{{ page.email_work | encode_email }}"><i class="fas fa-envelope"></i></a>{% endif %}
           {% if page.github_username %}<a href="https://github.com/{{ page.github_username }}" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>{% endif %}
-          {% if page.url %}<a href="{{ page.url }}" target="_blank" title="Personal page"><i class="fa fa-address-card"></i></a>{% endif %}
+          <!-- {% if page.url %}<a href="{{ page.url }}" target="_blank" title="Personal page"><i class="fa fa-address-card"></i></a>{% endif %}-->
           {% if page.telegram_username %}<a href="https://t.me/{{ page.telegram_username }}" target="_blank" title="Telegram"><i class="fab fa-telegram"></i></a>{% endif %}
           {% if page.linkedin_username %}<a href="https://www.linkedin.com/in/{{ page.linkedin_username }}" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>{% endif %}
           {% if page.twitter_username %}<a href="https://twitter.com/{{ page.twitter_username }}" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>{% endif %}
