@@ -503,3 +503,13 @@ html.transition *:after {
   transition: all 750ms !important;
   transition-delay: 0 !important;
 }
+
+
+// posts
+
+.post {
+    h1 {  font-size: 2rem; }
+    h2 {  font-size: 1.7rem; }
+    h3 {  font-size: 1.5rem; }
+    h4 {  font-size: 1.3rem; }
+}
