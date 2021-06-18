@@ -1,6 +1,6 @@
 ---
 layout: master-project
-title: NITTA - САПР для специализированных вычислителей
+title: NITTA - система проектирования специализированных процессоров
 director: Пенской Александр Владимирович
 year: 2021
 img: /assets/img/nitta/nitta-logo-horizon.jpg
