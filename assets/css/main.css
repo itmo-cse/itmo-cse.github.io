@@ -214,6 +214,14 @@ code { color: var(--global-theme-color); background-color: var(--global-code-bg-
 
 html.transition, html.transition *, html.transition *:before, html.transition *:after { transition: all 750ms !important; transition-delay: 0 !important; }
 
+.post h1 { font-size: 2rem; }
+
+.post h2 { font-size: 1.7rem; }
+
+.post h3 { font-size: 1.5rem; }
+
+.post h4 { font-size: 1.3rem; }
+
 /******************************************************************************* Style overrides for distill blog posts. */
 d-byline { border-top-color: #e8e8e8 !important; }
 
