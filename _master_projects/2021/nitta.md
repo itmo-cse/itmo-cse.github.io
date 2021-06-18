@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: master-project
 title: NITTA - САПР для специализированных вычислителей
 director: Пенской Александр Владимирович
 year: 2021
