@@ -49,7 +49,8 @@ enable_master_project_categories: true
       {% assign categorized_master_projects = site.master_projects | where: "year", 2021 %}
         <ul>
           {% for project in categorized_master_projects %}
-           <li> <a href="
+           <li> 
+<p><a href="
            {% if project.external_url %}
            {{ project.external_url }}
            {% else %}
@@ -58,12 +59,18 @@ enable_master_project_categories: true
            "> {{ project.title }} </a> <br/>
            
            {{ project.director }}, {{ project.corp_partner }} 
+<br/>
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScW6sl6FlzkGNSAG1z65UfKXzvOrKkaw-EvXLEvVyR6NErTnQ/viewform?usp=pp_url&entry.2019952408=%D0%94%D0%B0%D1%8E+%D1%81%D0%BE%D0%B3%D0%BB%D0%B0%D1%81%D0%B8%D0%B5+%D0%BD%D0%B0+%D0%BE%D0%B1%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D1%83+%D0%BF%D0%B5%D1%80%D1%81%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D1%85+%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85+%D0%BF%D0%BE+%D1%84%D0%BE%D1%80%D0%BC%D0%B5+https://itmo-cse.github.io/assets/pdf/consent.pdf&entry.1960136597={{ project.title }}"> 
+Подать заявку</a>
            {% if project.abstract %}
-         <details>
+      <details>
          <summary>Краткое описание</summary>
         {{ project.abstract }} 
          </details>
            {% endif %}
+
+</p>
            </li>
           {% endfor %}
           </ul>
@@ -71,9 +78,12 @@ enable_master_project_categories: true
 
 </div>
 
+<!--
 ## Как подать заявку?
 
 Отправьте заявку через [эту форму](https://forms.gle/QUMb2WqoMyLEEBBZ6) и мы свяжемся с Вами.
+-->
+
 
 ## Как стать ментором?
 
