@@ -178,21 +178,45 @@
       </p>
 
   <article>
-    <p>Мы создаем инструментарий для генерации и программирования специализированных не фон Неймановских процессоров, предназначенных для циклического исполнения алгоритмов управления и обработки сигналов/данных. Они строятся на оригинальной архитектуре NITTA (Not Instruction Transport Triggered Architecture). Она позволяет:</p>
+    <p><small>The English text is presented below</small></p>
+
+<p>Мы создаем инструментарий для синтеза и программирования специализированных не фон Неймановских процессоров для ускорителей, систем на кристалле, встроенных и киберфизических систем. В основе проекта лежит оригинальная Not Instruction Transport Triggered Architecture, которая даёт:</p>
 
 <ul>
-  <li>обеспечить высокую скорость и уровень параллелизма для нерегулярных алгоритмов, не использующих GPU, и жесткое реальное время с точностью до такта;</li>
-  <li>сделать процессор реконфигурируемым под разные прикладные области;</li>
-  <li>предоставить язык высокого уровня для прикладных разработчиков и быструю компиляцию.</li>
+  <li>высокий уровень параллелизма для нерегулярных алгоритмов (где не подходит GPU);</li>
+  <li>программируемость на языке высокого уровня прикладными специалистами;</li>
+  <li>жесткое реальное время;</li>
+  <li>аппаратную реконфигурацию под разные прикладные области.</li>
 </ul>
 
-<p>Построенные при помощи нашего инструмента вычислители могут использоваться для:</p>
+<p>Фишки нашего проекта:</p>
+<ul>
+  <li>он открытый (ваш вклад будет на GitHub, а значит в портфолио);</li>
+  <li>коллективная разработка, выстроенные (автоматизированные) процессы;</li>
+  <li>он касается большинства разделов вычислительной техники;</li>
+  <li>классный технологический стек;</li>
+  <li>участники проекта могут претендовать на титул “всем фулстекам фулстек” (от цифровой схемотехники через системное программирование к веб-приложениям).</li>
+</ul>
+
+<p>Сайт проекта: <a href="https://ryukzak.github.io/projects/nitta/">[Aleksandr Penskoi | NITTA]</a></p>
+
+<h2 id="решаемые-технические-проблемы">Решаемые технические проблемы</h2>
 
 <ul>
-  <li>разработки встроенных и киберфизических систем;</li>
-  <li>программно-аппаратного тестирования и быстрого прототипирования (HIL и PIL);</li>
-  <li>разработки программируемых ускорителей и сопроцессоров.</li>
+  <li>Одной из областей применения NITTA является моделирование динамических процессов (физические, экономические, биологические). Сегодня набирает популярность свободный язык моделирования XMILE и нам нужно его поддержать.</li>
+  <li>Система управления специализированными процессорами, позволяющая просто и эффективно интегрировать их в существующие системы.</li>
+  <li>Синтез процессора требует рассмотрения огромного количества вариантов организации будущего вычислителя. Сейчас он делается при помощи целевой функции, но методы машинного обучения могут дать лучшие результаты.</li>
+  <li>В настоящий момент САПР поддерживает архитектуру процессоров только с одной сетью, которая становится бутылочным горлышком. Поддержка множества взаимосвязанных сетей в процессоре решит это проблему.</li>
+  <li>В настоящий момент процессора могут работать только с числами с фиксированной точкой, но широкое использование требует поддержки плавающей точки. Это требует решение множества задач как в рамках аппаратуры, так и в рамках САПР.</li>
+  <li>Одна из сложнейших задач разработки ПО – тестирование, особенно таких сложных программ. Автоматизация и развитие методов автоматического тестирования – неотъемлемая часть нашего проекта, которая включает: PBT, DSL, сквозную типизацию, сквозную симуляцию и т.д.</li>
+  <li>Отладка и развитие САПР требуют прозрачности и наглядности внутренних процессов. Для этого необходимо разрабатывать сложные пользовательские интерфейсы с нетривиальной визуализацией.</li>
 </ul>
+
+<h2 id="стек-технологий">Стек технологий</h2>
+
+<p>Языки и библиотеки: Haskell, Verilog, Typescript, React, Bootstrap, Python, Rust.</p>
+
+<p>Технологии и приемы: Github, CI, Code Review, FPGA, Quartus, BDD, Embedded Domain-Specific Languages, Property-Based Testing, Machine Learning</p>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -212,17 +236,56 @@
     React, TypeScript для пользовательского интерфейса; Haskell для ядра САПР; Verilog для ПЛИС
 </div>
 
-<p>Набор необходимых курсов может значительно варьироваться в зависимости от области проекта, среди них:</p>
+<h2 id="предварительный-перечень-курсов">Предварительный перечень курсов</h2>
+
+<p>Набор курсов может значительно варьироваться в зависимости от области проекта:</p>
 <ul>
   <li>Функциональное программирование</li>
-  <li>Цифровая схемотехника</li>
   <li>Архитектурное моделирование</li>
-  <li>Системная и программная инженерия</li>
   <li>Организация вычислительного процесса</li>
+  <li>Технологии Web-сервисов</li>
   <li>Онтологическое моделирование</li>
+  <li>Цифровая схемотехника</li>
+  <li>Проектирование встроенных и киберфизических систем</li>
+  <li>Системная и программная инженерия</li>
+  <li>Процессоры и функциональные ускорители</li>
 </ul>
 
-<p>Сайт проекта: <a href="https://ryukzak.github.io/projects/nitta/">Aleksandr Penskoi | NITTA</a></p>
+<hr />
+
+<h1 id="nitta---cad-for-hard-real-time-application-specific-processor">NITTA - CAD for Hard Real-Time Application Specific Processor</h1>
+
+<p>We create tools for synthesizing and programming application-specific non-von Neumann processors for accelerators, embedded and cyber-physical systems, and systems on a chip. The project is based on the original Not Instruction Transport Triggered Architecture, which gives:</p>
+
+<ul>
+  <li>high level of parallelism for irregular algorithms (where GPU is not suitable);</li>
+  <li>programmability in a high-level language by application specialists;</li>
+  <li>hard real-time;</li>
+  <li>hardware reconfiguration for different application areas.</li>
+</ul>
+
+<p>Features of our project:</p>
+<ul>
+  <li>open-source project (your contribution will be on GitHub);</li>
+  <li>collective development, established (automated) processes;</li>
+  <li>this project covers most sections of computer technology;</li>
+  <li>cool technology stack;</li>
+  <li>project participants can claim the title “full-stack of all full-stacks” (from digital circuitry through system programming to web applications).</li>
+</ul>
+
+<h2 id="technical-tasks">Technical tasks</h2>
+
+<ul>
+  <li>One of the application areas of NITTA is the dynamic processes modeling (physical, economic, biological). Today, the open modeling language XMILE is gaining popularity, and we need to support it.</li>
+  <li>A control system for application-specific processors allows you to easily and efficiently integrate them into existing systems.</li>
+  <li>Processor synthesis requires consideration of a huge number of options to determine organization. Now it is done using the objective function, but machine learning methods can give better results.</li>
+  <li>Today, CAD supports processor architectures with only one network, which becomes a bottleneck. Supporting multiple interconnected networks in the processor will solve this problem.</li>
+  <li>Currently, processors can only work with fixed-point numbers, but widespread use requires floating-point support. The solution requires some work on the project CAD and hardware side.</li>
+  <li>One of the most difficult tasks of software development is testing. Automation and development of automated testing methods are an essential part of our project: PBT, DSL, end-to-end typing, end-to-end simulation, etc.</li>
+  <li>Debugging and development of CAD require transparency and clarity of internal processes. As a consequence, we require a complex user interface with complicated visualizations.</li>
+</ul>
+
+<p>Web page: <a href="https://ryukzak.github.io/projects/nitta/">Aleksandr Penskoi | NITTA</a></p>
 
   </article>
 
@@ -239,7 +302,7 @@
     
     
     
-    Last updated: June 18, 2021.
+    Last updated: June 22, 2021.
     
   </div>
 </footer>
