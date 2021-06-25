@@ -1,6 +1,6 @@
 ---
 layout: master-project
-title: Разработка распределенной платформы для моделирования встроенных систем
+title: Платформа реалистичной визуализации для гарнитур смешанной реальности
 director: Быковский Сергей Вячеславович
 year: 2021
 corp_partner: Университет ИТМО
@@ -15,7 +15,7 @@ positions: 2
 ---
 
 
-[Страница на GitLab](https://gitlab.se.ifmo.ru/cse/project-based-master/esim)
+<!-- [Страница на GitLab](https://gitlab.se.ifmo.ru/cse/project-based-master/esim) -->
  
 
 
