@@ -28,6 +28,8 @@ abstract: В проекте разрабатываются инструмент�
 
 Сайт проекта: <a href="https://ryukzak.github.io/projects/nitta/">[Aleksandr Penskoi | NITTA]</a>
 
+GitHub: <a href="https://github.com/ryukzak/nitta">[GitHub - ryukzak/nitta]</a> 
+
 ## Решаемые технические проблемы
 
 - Одной из областей применения NITTA является моделирование динамических процессов (физические, экономические, биологические). Сегодня набирает популярность свободный язык моделирования XMILE и нам нужно его поддержать.
@@ -46,6 +48,12 @@ abstract: В проекте разрабатываются инструмент�
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
+        <a href="https://github.com/ryukzak/nitta">
+          <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/GitHub-Mark-120px-plus.png' | relative_url }}" alt="React" title="React"/>
+          <small>GitHub</small>
+        </a>
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
         <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/nitta/noun_ReactJS_3451802.png' | relative_url }}" alt="React" title="React"/>
     </div>
     <div class="col-sm mt-3 mt-md-0">
@@ -59,7 +67,7 @@ abstract: В проекте разрабатываются инструмент�
     </div>
 </div>
 <div class="caption">
-    React, TypeScript для пользовательского интерфейса; Haskell для ядра САПР; Verilog для ПЛИС
+    GitHub, React, TypeScript для пользовательского интерфейса; Haskell для ядра САПР; Verilog для ПЛИС
 </div>
 
 ## Предварительный перечень курсов
