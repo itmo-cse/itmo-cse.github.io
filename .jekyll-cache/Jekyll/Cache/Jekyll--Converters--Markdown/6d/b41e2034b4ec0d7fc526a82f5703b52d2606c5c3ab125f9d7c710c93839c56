@@ -1,0 +1,47 @@
+I"h<div class="projects">
+  
+  <!-- Display categorized projects -->
+    
+      <h2 class="category">education</h2>
+      
+      
+      <!-- Generate cards for each project -->
+      
+        <div class="grid">
+          
+            <div class="grid-item">
+  
+  <a href="/projects/project-based-masters/">
+  
+    <div class="card hoverable">
+      
+      <div class="card-body">
+        <h2 class="card-title text-lowercase">Проектная магистратура</h2>
+        <p class="card-text">Новая форма обучения</p>
+        <div class="row ml-1 mr-1 p-0">
+          
+        </div>
+      </div>
+    </div>
+  </a>
+</div>
+
+          
+        </div>
+      
+    
+      <h2 class="category">science</h2>
+      
+      
+      <!-- Generate cards for each project -->
+      
+        <div class="grid">
+          
+        </div>
+      
+    
+
+  
+
+</div>
+:ET
