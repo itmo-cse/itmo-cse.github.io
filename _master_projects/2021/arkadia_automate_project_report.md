@@ -1,6 +1,6 @@
 ---
 layout: master-project
-title: "Автоматизация Project&Reporting решения с последующим внедрением в корпоративное бизнес-окружение"
+title: "Автоматизация Project and Reporting решения с последующим внедрением в корпоративное бизнес-окружение"
 director: Носов Роман Дмитриевич
 itmo_director: 
 year: 2021
