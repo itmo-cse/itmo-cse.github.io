@@ -86,6 +86,7 @@ enable_master_project_categories: true
       {% assign categorized_master_projects = site.master_projects | where: "year", 2021 %}
         <ul>
           {% for project in categorized_master_projects %}
+          {% unless project.hidden %}
            <li> 
 <p><a href="
            {% if project.external_url %}
@@ -110,6 +111,7 @@ enable_master_project_categories: true
 
 </p>
            </li>
+          {% endunless %}
           {% endfor %}
           </ul>
 
