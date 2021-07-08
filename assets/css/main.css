@@ -1,6 +1,6 @@
 /******************************************************************************* Variables used throughout the theme. To adjust anything, simply edit the variables below and rebuild the theme. */
 /******************************************************************************* Themes */
-:root { --global-bg-color: #ffffff; --global-code-bg-color: white; --global-text-color: #000000; --global-text-color-light: #828282; --global-theme-color: #0076df; --global-hover-color: #B509AC; --global-footer-bg-color: #cbe691; --global-footer-text-color: #e8e8e8; --global-footer-link-color: #ffffff; --global-distill-app-color: #828282; }
+:root { --global-bg-color: #ffffff; --global-code-bg-color: white; --global-text-color: #000000; --global-text-color-light: #828282; --global-theme-color: #B509AC; --global-hover-color: #B509AC; --global-footer-bg-color: #424242; --global-footer-text-color: #e8e8e8; --global-footer-link-color: #ffffff; --global-distill-app-color: #828282; }
 
 :root .fa-sun { display: none; }
 
@@ -102,15 +102,15 @@ a:hover:after, table.table a:hover:after { width: 100%; }
 
 .social .contact-note { font-size: 0.8rem; }
 
-footer.fixed-bottom { background-color: var(--global-footer-bg-color); font-size: 2rem; text-align: center; }
+footer.fixed-bottom { background-color: var(--global-footer-bg-color); font-size: 0.75rem; }
 
 footer.fixed-bottom .container { color: var(--global-footer-text-color); padding-top: 9px; padding-bottom: 8px; }
 
+footer.fixed-bottom a { color: var(--global-footer-link-color); }
+
+footer.fixed-bottom a:hover { color: var(--global-theme-color); text-decoration: none; }
+
 footer.sticky-bottom { border-top: 1px solid #e8e8e8; padding-top: 40px; padding-bottom: 40px; font-size: 0.9rem; }
-
-footer.sticky-bottom a { color: var(--global-footer-link-color); }
-
-footer.sticky-bottom a:hover { color: var(--global-theme-color); text-decoration: none; }
 
 .header-bar { border-bottom: 1px solid #e8e8e8; text-align: center; padding-top: 2rem; padding-bottom: 5rem; }
 
