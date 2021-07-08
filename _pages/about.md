@@ -3,6 +3,7 @@ layout: about
 menu_title: О нас
 title: Программная Инженерия и Компьютерная Техника
 permalink: /about
+nav: false
 
 news: false
 selected_papers: false

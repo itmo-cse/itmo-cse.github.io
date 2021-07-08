@@ -1,19 +1,19 @@
 ---
 layout: staff_member
-surname: Дмитрий
+surname: Муромцев
 patronym: Ильич
-name: Муромцев
-position: Доцент
+name: Дмитрий
+position: Доцент Университета ИТМО
 degree: Кандидат технических наук
 img: /assets/img/staff/mouromtsev.jpg
 email_work: mouromtsev@itmo.ru
 email_personal:  mouromtsev@itmo.ru
-bio: Координатор проектной магистратуры факультета ПИиКТ
 github: 
 skype:
-telegram:
+telegram_username: dmitry_mouromtsev
 twitter:
 itmo_id: 125197
 order: 1
 ---
 
+Координатор проектной магистратуры

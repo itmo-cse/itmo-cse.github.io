@@ -2,7 +2,7 @@
 layout: post
 title: Контакты
 menu_title: Контакты
-nav: true
+nav: false
 permalink: /contacts/
 social: true
 ---

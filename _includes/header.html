@@ -23,14 +23,14 @@
       <div class="collapse navbar-collapse text-right" id="navbarNav">
         <ul class="navbar-nav ml-auto flex-nowrap">
           <!-- About -->
-          <li class="nav-item {% if page.title == 'about' %}active{% endif %}">
+          <!-- <li class="nav-item {% if page.title == 'about' %}active{% endif %}">
             <a class="nav-link" href="{{ '/about' | relative_url }}">
               О нас
               {% if page.menu_title == "О нас" %}
                 <span class="sr-only">(current)</span>
               {% endif %}
             </a>
-          </li>
+          </li> -->
           <!--
           {% if site.blog_name %}
           <li class="nav-item {% if page.url contains 'blog' %}active{% endif %}">
@@ -44,7 +44,7 @@
           {% endif %}
           -->
           <!-- Other pages -->
-          {% assign sorted_pages = site.pages | sort: "menu_title" %}
+          {% assign sorted_pages = site.pages | sort: "nav-item" %}
           {% for p in sorted_pages %}
           {% if p.nav and p.autogen == nil %}
           <li class="nav-item {% if page.title == p.title %}active{% endif %}">
@@ -57,6 +57,18 @@
           </li>
           {% endif %}
           {% endfor %}
+
+          <!-- Contacts -->
+          <li class="nav-item {% if page.title == 'Дмитрий Ильич Муромцев' %}active{% endif %}">
+            <a class="nav-link" href="{{ '/staff_members/mouromtsev/' | relative_url }}">
+              Контакты
+              {% if page.menu_title == "Контакты" %}
+                <span class="sr-only">(current)</span>
+              {% endif %}
+            </a>
+          </li>
+
+          
           {% if site.enable_darkmode %}
             <div class = "toggle-container">
               <a id = "light-toggle">

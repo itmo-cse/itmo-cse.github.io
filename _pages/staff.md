@@ -4,7 +4,7 @@ title: Сотрудники и менторы
 menu_title: Сотрудники
 permalink: /staff/
 description: Наша команда
-nav: true
+nav: false
 horizontal: false
 ---
 

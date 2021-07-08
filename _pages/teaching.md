@@ -4,7 +4,7 @@ title: Образование
 menu_title: Образование
 permalink: /teaching/
 description: Образовательные ресурсы
-nav: true
+nav: false
 ---
 
 ### Студентам

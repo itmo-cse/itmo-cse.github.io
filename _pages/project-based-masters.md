@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Проектная магистратура
+title: Что такое проектная магистратура?
 permalink: /
 nav: false
 display_years: [2021]
@@ -8,7 +8,7 @@ enable_master_project_categories: true
 
 ---
 
-Это новый, индивидуализированный формат обучения в магистратуре, когда каждый
+**Проектная магистратура** - это новый, индивидуализированный формат обучения в магистратуре, когда каждый
 студент под руководством опытного ментора работает над реальным проектом и
 составляет для этого персональную траекторию обучения.
 
@@ -30,9 +30,16 @@ enable_master_project_categories: true
 обучения в магистратуре.
 
 
-
+<a href="https://t.me/joinchat/6teCXCefCsZiNWMy" target="_blank" title="Telegram"><i class="fab fa-telegram"></i></a>
 [Новости в телеграм-канале](https://t.me/joinchat/6teCXCefCsZiNWMy)
 
+
+<!-- <div class="social">
+<div class="contact-icons">
+  <a href="https://t.me/joinchat/6teCXCefCsZiNWMy" target="_blank" title="Telegram"><i class="fab fa-telegram"></i></a>
+  <a href="mailto:mouromtsev@itmo.ru"><i class="fas fa-envelope"></i></a>
+</div>
+</div> -->
 
 
 # Кто может учиться в проектной магистратуре?
@@ -84,45 +91,31 @@ enable_master_project_categories: true
 
 <div class="projects">
       {% assign categorized_master_projects = site.master_projects | where: "year", 2021 %}
+      <ol>
           {% for project in categorized_master_projects %}
           {% unless project.hidden %}
-<p>
-<h3>
+            <li>
+              <a href="
+                {% if project.external_url %}
+                {{ project.external_url }}
+                {% else %}
+                {{ project.url }}
+                {% endif %}
+                "> {{ project.title }} 
+              </a>
+            </li>
 
-<a href="
-           {% if project.external_url %}
-           {{ project.external_url }}
-           {% else %}
-           {{ project.url }}
-           {% endif %}
-           "> {{ project.title }} </a> 
-           
-</h3>
-           
-           
-           {{ project.director }}, {{ project.corp_partner }} 
-           {% if project.itmo_director %} <br/> {{ project.itmo_director }}, Университет ИТМО {% endif %}
-<br/>
-
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScW6sl6FlzkGNSAG1z65UfKXzvOrKkaw-EvXLEvVyR6NErTnQ/viewform?usp=pp_url&entry.2019952408=%D0%94%D0%B0%D1%8E+%D1%81%D0%BE%D0%B3%D0%BB%D0%B0%D1%81%D0%B8%D0%B5+%D0%BD%D0%B0+%D0%BE%D0%B1%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D1%83+%D0%BF%D0%B5%D1%80%D1%81%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D1%85+%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85+%D0%BF%D0%BE+%D1%84%D0%BE%D1%80%D0%BC%D0%B5+https://itmo-cse.github.io/assets/pdf/consent.pdf&entry.1960136597={{ project.title }}">
-<b>[Подать заявку в этот проект]</b></a>
-           {% if project.abstract %}
-        <p>{{ project.abstract }}</p>
-           {% endif %}
-
-</p>
           {% endunless %}
           {% endfor %}
+          </ol>
 
 
 </div>
 
-<!--
+
 # Как подать заявку?
 
-Отправьте заявку через [эту форму](https://forms.gle/QUMb2WqoMyLEEBBZ6) и мы свяжемся с Вами.
--->
-
+Отправьте заявку через <a href="https://forms.gle/QUMb2WqoMyLEEBBZ6" target="_blank"> эту форму </a> и мы свяжемся с Вами.
 
 # Как стать ментором?
 

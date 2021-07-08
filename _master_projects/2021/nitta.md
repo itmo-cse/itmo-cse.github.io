@@ -1,7 +1,7 @@
 ---
 layout: master-project
 title: NITTA - система проектирования специализированных процессоров
-director: Пенской Александр Владимирович
+itmo_director: Пенской Александр Владимирович
 year: 2021
 img: /assets/img/nitta/nitta-logo-horizon.jpg
 corp_partner: Университет ИТМО
