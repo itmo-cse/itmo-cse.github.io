@@ -3,5 +3,5 @@ layout: partner
 name: ООО "Нориджи"
 img: 
 site: 
-order: 1
+order: 5
 ---

@@ -4,7 +4,7 @@ title: Проекты
 menu_title: Проекты
 permalink: /projects/
 nav: true 
-display_categories: [Университет ИТМО, 1C, Аркадия, ООО "Нориджи", Deutsche Telekom, ПАО "Банк ВТБ"]
+display_categories: [Университет ИТМО, GS Labs, 1C, Аркадия, ООО "Нориджи", Deutsche Telekom, ПАО "Банк ВТБ"]
 horizontal: false
 nav-item: 1
 ---
@@ -34,9 +34,9 @@ nav-item: 1
         </h4>    
                   
         <p>
-        {% if project.director %}<b>Ментор от корпоративного партнера</b>: 
+        {% if project.director %}<b>Руководитель от корпоративного партнера</b>: 
         {{ project.director }}, {{ project.corp_partner }} <br> {% endif %} 
-        {% if project.itmo_director %}  <b>Ментор от Университета ИТМО</b>: {{ project.itmo_director }}, 
+        {% if project.itmo_director %}  <b>Руководитель от Университета ИТМО</b>: {{ project.itmo_director }}, 
         Университет ИТМО {% endif %}
         </p>
 
