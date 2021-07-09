@@ -4,7 +4,7 @@ title: Проекты
 menu_title: Проекты
 permalink: /projects/
 nav: true 
-display_categories: [Университет ИТМО, GS Labs, 1C, Аркадия, ООО "Нориджи", Deutsche Telekom, ПАО "Банк ВТБ"]
+display_categories: [Университет ИТМО, GS Labs, 1C, Аркадия, ООО "Нордиджи", Deutsche Telekom, ПАО "Банк ВТБ"]
 horizontal: false
 nav-item: 1
 ---
