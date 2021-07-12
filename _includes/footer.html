@@ -20,8 +20,10 @@
 {% else %}
 <footer class="sticky-bottom mt-5">
     <div class="container">
-        
-    Факультет программной инженерии и компьютерной техники <a href="https://www.itmo.ru" style="color:black;">Университета ИТМО</a> &copy; Copyright {{ site.time | date: '%Y' }} {{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}.
+
+<img src="assets/img/partners/pikt.png"  alt="pikt">
+      Факультет программной инженерии и компьютерной техники, 
+    <a href="https://www.itmo.ru" style="color:black;">Университет ИТМО</a> &copy; Copyright {{ site.time | date: '%Y' }} {{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}.
     {{ site.footer_text }}
     {% if site.impressum_path %}
     <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
