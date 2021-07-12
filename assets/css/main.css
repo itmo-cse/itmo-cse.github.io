@@ -151,6 +151,10 @@ footer.sticky-bottom a:hover { color: var(--global-theme-color); text-decoration
 
 .projects .grid-item a:hover { color: var(--global-theme-color); }
 
+.projects .grid-item .mini { width: 150px; box-shadow: none; }
+
+.projects .grid-item .mini img { width: 100%; }
+
 .projects .grid-item .card img { padding: 20px; width: 100%; }
 
 .projects .grid-item .card .card-title { color: #000000; }
