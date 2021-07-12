@@ -9,9 +9,6 @@ nav: true
 horizontal: false
 nav-item: 2 
 ---
-<div class="projects">
-
-
 
 <div class="projects">
 
@@ -37,4 +34,3 @@ nav-item: 2
 
 </div>
 
-</div>

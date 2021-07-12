@@ -2,7 +2,8 @@
 layout: page
 title: Что такое проектная магистратура?
 permalink: /
-nav: false
+nav: true
+menu_title: Главная
 display_years: [2021]
 enable_master_project_categories: true
 
@@ -41,6 +42,29 @@ enable_master_project_categories: true
 </div>
 </div> -->
 
+# Наши партнеры
+
+<br>
+<div class="projects">
+
+{% assign sorted_partners = site.partners | sort: "order" %}
+
+  <div class="grid">
+    {% for partner in sorted_partners %}
+      <div class="grid-item">
+        <a href="{{ partner.url | relative_url }}">
+          <div class="mini">
+            {% if partner.img %}
+            <img src="{{ partner.img | relative_url }}" alt="partner thumbnail">
+            {% endif %}
+          </div>
+        </a>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
+<br>
 
 # Кто может учиться в проектной магистратуре?
 
