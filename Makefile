@@ -3,8 +3,9 @@ publish:
 	bundle exec jekyll build
 	git checkout gh-pages
 	git pull
-	rsync --checksum -avz --delete --exclude='_site' --exclude='.git/' --exclude='.gitignore' _site/ ./
-	git add --all
+	rm -rf docs
+	cp -R _site docs
+	git add docs
 	git commit -am'update'
 	git push
 	git checkout master
