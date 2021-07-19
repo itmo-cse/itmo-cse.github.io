@@ -30,6 +30,7 @@ enable_master_project_categories: true
 При этом Вы сохраняете льготы по общежитию, отсрочку от армии и другие бонусы
 обучения в магистратуре.
 
+[Видео-презентация проектной магистратуры](https://vk.com/video-166875517_456239044)
 
 <a href="https://t.me/joinchat/6teCXCefCsZiNWMy" target="_blank" title="Telegram"><i class="fab fa-telegram"></i></a>
 [Новости в телеграм-канале](https://t.me/joinchat/6teCXCefCsZiNWMy)
