@@ -15,7 +15,7 @@ nav-item: 1
       {%if category == "Университет ИТМО"%}
         <h2 class="category">Проекты Университета ИТМО</h2>
       {% else %}
-        <h2 class="category">Проекты корпоративного пратнера "{{category}}"</h2>
+        <h2 class="category">Проекты корпоративного партнера "{{category}}"</h2>
       {% endif %}
 
       {% assign categorized_projects = site.master_projects | where: "corp_partner", category %}

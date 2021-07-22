@@ -5,7 +5,7 @@ director: Брюханов Константин
 itmo_director: Авксентьева Елена Юрьевна
 year: 2021
 corp_partner: ПАО "Банк ВТБ"
-positions: 2
+positions: 0
 ---
 
 
