@@ -112,7 +112,9 @@ enable_master_project_categories: true
 
 # В каких проектах можно участвовать?
 
-В 2021&ndash;2022 учебном году мы предлагаем следующие проекты:
+В 2021&ndash;2022 учебном году набор на все проекты закончен. 
+
+Мы предлагали следующие проекты:
 
 <div class="projects">
       {% assign categorized_master_projects = site.master_projects | where: "year", 2021 %}
