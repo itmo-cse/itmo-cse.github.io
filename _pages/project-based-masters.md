@@ -4,7 +4,7 @@ title: Что такое проектная магистратура?
 permalink: /
 nav: true
 menu_title: Главная
-display_years: [2021]
+display_years: [2022]
 enable_master_project_categories: true
 
 ---
@@ -33,7 +33,7 @@ enable_master_project_categories: true
 [Видео-презентация проектной магистратуры](https://vk.com/video-166875517_456239044)
 
 <a href="https://t.me/joinchat/6teCXCefCsZiNWMy" target="_blank" title="Telegram"><i class="fab fa-telegram"></i></a>
-[Новости в телеграм-канале](https://t.me/joinchat/6teCXCefCsZiNWMy)
+[Новости в телеграм-канале](https://t.me/+TMUWo3U_zxplOTYy)
 
 
 <!-- <div class="social">
