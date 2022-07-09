@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<title>Проектная магистратура Университета ИТМО | Разработка прототипа сервисов мобильного устройства с использованием искусственного интеллекта для осмотрщика вагонов</title>
+<meta name="description" content="Описание">
+
+<!-- Open Graph -->
+
+
+<!-- Bootstrap & MDB -->
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" integrity="sha512-MoRNloxbStBcD8z3M/2BmnT+rg4IsMxPkXaGh2zD6LGNNFE80W3onsAhRcMAMrSoyWL9xD7Ert0men7vR8LUZg==" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" integrity="sha512-RO38pBRxYH3SoOprtPTD86JFOclM51/XTIdEPh5j8sj4tp8jmQIx26twG52UaLi//hQldfrh7e51WzP9wuP32Q==" crossorigin="anonymous" />
+
+<!-- Fonts & Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"  integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css" integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg==" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons">
+
+<!-- Code Syntax Highlighting -->
+<link rel="stylesheet" href="https://gitcdn.xyz/repo/jwarby/jekyll-pygments-themes/master/github.css" />
+
+<!-- Styles -->
+
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🖥</text></svg>">
+
+<link rel="stylesheet" href="/assets/css/main.css">
+
+<link rel="canonical" href="/master_projects/2021/ocrv_speech/">
+
+<!-- JQuery -->
+<!-- jQuery -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+
+
+<!-- Theming-->
+
+  <script src="/assets/js/theme.js"></script>
+  <!-- Load DarkMode JS -->
+<script src="/assets/js/dark_mode.js"></script>
+
+
+
+
+
+
+    
+<!-- MathJax -->
+<script type="text/javascript">
+  window.MathJax = {
+    tex: {
+      tags: 'ams'
+    }
+  };
+</script>
+<script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.1.2/es5/tex-mml-chtml.js"></script>
+<script defer src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+
+
+  </head>
+
+  <body class="fixed-top-nav sticky-bottom-footer">
+
+    <!-- Header -->
+
+    <header>
+
+    <!-- Nav Bar -->
+    <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top">
+    <div class="container">
+      
+      <a class="navbar-brand title font-weight-lighter" href="/">
+       Проектная магистратура Университета ИТМО
+      </a>
+      
+      <!-- Navbar Toggle -->
+      <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar top-bar"></span>
+        <span class="icon-bar middle-bar"></span>
+        <span class="icon-bar bottom-bar"></span>
+      </button>
+      <div class="collapse navbar-collapse text-right" id="navbarNav">
+        <ul class="navbar-nav ml-auto flex-nowrap">
+          <!-- About -->
+          <!-- <li class="nav-item ">
+            <a class="nav-link" href="/about">
+              О нас
+              
+            </a>
+          </li> -->
+          <!--
+          
+          <li class="nav-item ">
+            <a class="nav-link" href="/blog/">
+              Блог
+              
+            </a>
+          </li>
+          
+          -->
+          <!-- Other pages -->
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/">
+                Главная
+                
+              </a>
+          </li>
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/projects/">
+                Проекты
+                
+              </a>
+          </li>
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/parnters/">
+                Партнеры
+                
+              </a>
+          </li>
+          
+          
+
+          <!-- Contacts -->
+          <li class="nav-item ">
+            <a class="nav-link" href="/staff_members/mouromtsev/">
+              Контакты
+              
+            </a>
+          </li>
+
+          
+          
+            <div class = "toggle-container">
+              <a id = "light-toggle">
+                  <i class="fas fa-moon"></i>
+                  <i class="fas fa-sun"></i>
+              </a>
+            </div>
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+</header>
+
+
+    <!-- Content -->
+
+    <div class="container mt-5">
+      <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Разработка прототипа сервисов мобильного устройства с использованием искусственного интеллекта для осмотрщика вагонов</h1>
+    <p>
+      <b>Руководитель от корпоративного партнера</b>: 
+      Фионов Андрей, ООО ОЦРВ  
+      
+  </header>
+
+      
+      <p><b>Открытых вакансий</b>: 2</p> 
+    </p>
+      <p>
+        <a class="btn req-btn" href="https://docs.google.com/forms/d/e/1FAIpQLScW6sl6FlzkGNSAG1z65UfKXzvOrKkaw-EvXLEvVyR6NErTnQ/viewform?usp=pp_url&entry.2019952408=%D0%94%D0%B0%D1%8E+%D1%81%D0%BE%D0%B3%D0%BB%D0%B0%D1%81%D0%B8%D0%B5+%D0%BD%D0%B0+%D0%BE%D0%B1%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D1%83+%D0%BF%D0%B5%D1%80%D1%81%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D1%85+%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85+%D0%BF%D0%BE+%D1%84%D0%BE%D1%80%D0%BC%D0%B5+https://itmo-cse.github.io/assets/pdf/consent.pdf&entry.1960136597=Разработка прототипа сервисов мобильного устройства с использованием искусственного интеллекта для осмотрщика вагонов">
+          <b>Подать заявку в этот проект</b></a>
+
+      </p>
+
+
+    
+
+
+
+
+  <article>
+    <h1 id="руководитель">Руководитель</h1>
+
+<p>Фионов Андрей</p>
+
+<p>Ведущий исследователь группы прототипирования Лаборатории искусственного интеллекта ОЦРВ</p>
+
+<p>Andrey.Fionov@OCRV.RU</p>
+
+<h1 id="краткая-аннотация">Краткая аннотация</h1>
+<p>Проект посвящен разработке и тестированию моделей машинного обучения на мобильном устройстве ОС Android. Предполагается использование двух типов моделей: распознавание зашумленной речи осмотрщика вагонов с распознаванием индекса поезда, номера вагона, неисправности вагона и распознавание номеров вагонов по фотографии. Особенность разработки заключается в том, что решение должно работать как оффлайн, так и онлайн с передачей на сервер исходных аудио файлов и изображений. При разработке моделей распознавания речи и распознавания номеров по изображению придется учитывать, что речь будет зашумленная с характерными «железнодорожными шумами», а фотографии могут быть выполнены под разными ракурсами в условиях затемнения.</p>
+
+<h1 id="план-действий">План действий</h1>
+
+<p>В ходе работы над проектом необходимо провести исследования следующих тем:</p>
+
+<ul>
+  <li>Модели распознавания речи.</li>
+  <li>Модели отделения речи от шума</li>
+  <li>Модели распознавания изображений</li>
+  <li>Разметка изображений и аудиозаписей.</li>
+  <li>Разработка сервисов для мобильных устройств</li>
+</ul>
+
+<p>В результате выполнения проекта необходимо реализовать следующие компоненты:</p>
+
+<ul>
+  <li>Сервисы распознавания зашумленной речи на Android.</li>
+  <li>Сервисы распознавания номеров вагонов по изображению на Android</li>
+  <li>Сервис разметки аудиозаписей и изображений</li>
+  <li>Хранилище аудио и изображений на сервере с возможностью обмена данными с мобильным устройством.</li>
+</ul>
+
+<h1 id="стек-технологий">Стек технологий</h1>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>1. User and Organizations
+    - Инструменты гибкой разработки Agile, Scrum, Kanban
+    - Тайм-менеджмент и планирование временем
+2. System Modeling
+    - Системное моделирование (UML)
+    - Анализ требований
+3. System Architecture and Infrastructure
+    - Методы проектирование программных систем
+    - Методы проектирования интеллектуальных систем
+    - Организация параллельных и распределенных вычислений
+    - Компьютерные сети
+    - Виртуальные системы и сервисы
+4. Software Development
+    - Программирование на языках Java, Python
+    - Использование стандартных библиотек библиотек Python, Java для обработки, анализа и визуализации данных
+    - Android Studio
+    - Web-разработка с использованием HTML, CSS, Java Script, PHP.
+    - СУБД PostgreSQL
+</code></pre></div></div>
+
+<h1 id="кем-станет-студент-по-завершению-магистратуры">Кем станет студент по завершению магистратуры</h1>
+
+<p>В зависимости от выполняемых задач внутри проекта выпускник может стать:</p>
+
+<ul>
+  <li>исследователем</li>
+  <li>системным архитектором</li>
+  <li>ведущим разработчиком</li>
+</ul>
+
+<h1 id="пререквизиты-входные-требования">Пререквизиты (входные требования)</h1>
+
+<p>Для участия в проекте необходимы базовые знания по следующим направлениям:</p>
+
+<ul>
+  <li>Математическая статистика</li>
+  <li>Теория алгоритмов</li>
+  <li>Математическая оптимизация</li>
+  <li>Математическая логика</li>
+  <li>Высшая математика</li>
+  <li>Машинное обучение</li>
+  <li>Основы нейронных сетей</li>
+  <li>Основы программирования</li>
+  <li>Алгоритмы и структуры данных</li>
+  <li>Программная инженерия</li>
+  <li>Архитектура программных систем</li>
+  <li>Базы данных</li>
+</ul>
+
+  </article>
+
+</div>
+
+    </div>
+
+    <!-- Footer -->
+
+    
+<footer class="sticky-bottom mt-5">
+    <div class="container">
+
+<img src="assets/img/partners/pikt.png"  alt="pikt">
+      Факультет программной инженерии и компьютерной техники, 
+    <a href="https://www.itmo.ru" style="color:black;">Университет ИТМО</a> &copy; Copyright 2022   .
+    
+    
+    
+    Последнее обновление: 08.07.2022.
+              
+  </div>
+</footer>
+
+
+
+  </body>
+
+  <!-- Bootsrap & MDB scripts -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.4.4/umd/popper.min.js" integrity="sha512-eUQ9hGdLjBjY3F41CScH3UX+4JDSI9zXeroz7hJ+RteoCaY+GP/LDoM8AO+Pt+DRFw3nXqsjh9Zsts8hnYv8/A==" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha512-M5KW3ztuIICmVIhjSqXe01oV2bpe248gOxqmlcYrEzAvws7Pw3z6BK0iGbrwvdrUQUhi3eXgtxp5I8PDo9YfjQ==" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js" integrity="sha512-Mug9KHKmroQFMLm93zGrjhibM2z2Obg9l6qFG2qKjXEXkMp/VDkI4uju9m4QKPjWSwQ6O2qzZEnJDEeCw0Blcw==" crossorigin="anonymous"></script>
+
+  
+<!-- Mansory & imagesLoaded -->
+<script defer src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+<script defer src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+<script defer src="/assets/js/mansory.js" type="text/javascript"></script>
+
+
+  
+
+
+<!-- Load Common JS -->
+<script src="/assets/js/common.js"></script>
+
+
+</html>
