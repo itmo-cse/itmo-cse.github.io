@@ -132,13 +132,13 @@ keep_files:
   - .git
 
 # Plug-ins
-plugins:
-  - jekyll-email-protect
-  - jekyll-github-metadata
-  - jekyll-paginate-v2
-  - jekyll/scholar
-  - jekyll-twitter-plugin
-  - jemoji
+plugins_dir:
+  #- jekyll-email-protect
+  #- jekyll-github-metadata
+  #- jekyll-paginate-v2
+  #- jekyll/scholar
+  #- jekyll-twitter-plugin
+ # - jemoji
 
 # Extras
 github: [metadata]
