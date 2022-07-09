@@ -1,0 +1,36 @@
+{% if site.footer_fixed %}
+<footer class="fixed-bottom">
+    <div class="container mt-0">
+
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLScW6sl6FlzkGNSAG1z65UfKXzvOrKkaw-EvXLEvVyR6NErTnQ/viewform?">
+            [Подать заявку]</a>
+
+    <!-- copy; Copyright {{ site.time | date: '%Y' }} {{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}.
+    {{ site.footer_text }}
+    {% if site.impressum_path %}
+    <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
+    {% endif %}
+    {% if site.last_updated %}
+    Last updated: {{ "now" | date: '%B %d, %Y' }}.
+    {% endif %}
+
+    -->
+  </div>
+</footer>
+{% else %}
+<footer class="sticky-bottom mt-5">
+    <div class="container">
+
+<img src="assets/img/partners/pikt.png"  alt="pikt">
+      Факультет программной инженерии и компьютерной техники, 
+    <a href="https://www.itmo.ru" style="color:black;">Университет ИТМО</a> &copy; Copyright {{ site.time | date: '%Y' }} {{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}.
+    {{ site.footer_text }}
+    {% if site.impressum_path %}
+    <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
+    {% endif %}
+    {% if site.last_updated %}
+    Последнее обновление: {{ "now" | date: '%d.%m.%Y' }}.
+             {% endif %} 
+  </div>
+</footer>
+{% endif %}

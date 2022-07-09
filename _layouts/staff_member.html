@@ -1,0 +1,57 @@
+---
+layout: default
+---
+<div class="post">
+
+    <article class="post-content">
+
+        <div class="row">
+            {% if page.img %}
+            <div class="col-sm mt-3 mt-md-0" >
+                <img class="img-fluid rounded z-depth-1" style="width: 70%" src="{{ page.img }}" alt="" title="example image"/>
+            </div>
+            {% endif %}
+
+
+                <div class="col-sm mt-3 mt-md-0" >
+
+    <header class="post-header">
+        <h2 class="post-title">{{ page.name }} {{ page.patronym }} {{ page.surname }}</h2>
+        <p class="post-description">{{ page.position }}</p>
+    </header>
+
+
+                {% if page.interests %}
+                <h3>Интересы</h3>
+                <div>
+                     {{ page.interests }}
+                </div>
+                {% endif %}
+
+                {{ content }}
+
+                </ul>
+                {% if page.email_work %}<p>E-mail: <a href="mailto:{{ page.email_work | encode_email }}">{{ page.email_work }}</a></p>{% endif %}
+    <div class="social">
+      <div >{{ page.bio }}</div>
+      <div class="contact-icons">
+          {% if page.email_work %}<a href="mailto:{{ page.email_work | encode_email }}"><i class="fas fa-envelope"></i></a>{% endif %}
+          {% if page.github_username %}<a href="https://github.com/{{ page.github_username }}" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>{% endif %}
+          <!-- {% if page.url %}<a href="{{ page.url }}" target="_blank" title="Personal page"><i class="fa fa-address-card"></i></a>{% endif %}-->
+          {% if page.telegram_username %}<a href="https://t.me/{{ page.telegram_username }}" target="_blank" title="Telegram"><i class="fab fa-telegram"></i></a>{% endif %}
+          {% if page.linkedin_username %}<a href="https://www.linkedin.com/in/{{ page.linkedin_username }}" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>{% endif %}
+          {% if page.twitter_username %}<a href="https://twitter.com/{{ page.twitter_username }}" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>{% endif %}
+          {% if page.research_gate_profile %}<a href="https://www.researchgate.net/profile/{{page.research_gate_profile}}/" target="_blank" title="ResearchGate"><i class="ai ai-researchgate"></i></a>{% endif %}
+      </div>
+    </div>
+
+
+ 
+ 
+
+            </div>
+        </div>
+
+    </article>
+
+</div>
